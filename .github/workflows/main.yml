@@ -13,4 +13,4 @@ jobs:
       with:
         who-to-great: 'かわいいうさぎちゃん'
     - name: Get the output time
-      run: echo "The time was ${{ steps.hello.outputs.time }"
+      run: echo "The time was ${{ steps.hello.outputs.time }}"
